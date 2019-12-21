@@ -1,0 +1,77 @@
+﻿<Database xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6a2fcd23-8101-4455-adcc-7412e8289080" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>MDX Step-by-Step</ID>
+  <Name>MDX Step-by-Step</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <LastUpdate>0001-01-01T00:00:00Z</LastUpdate>
+  <Language>1033</Language>
+  <Collation>Latin1_General_CI_AS</Collation>
+  <Translations>
+    <Translation dwd:design-time-name="64e0964a-d268-4107-9b85-c31ea2ccedf4">
+      <Language>3082</Language>
+      <Caption>Adventure Works</Caption>
+      <Description>Un modelo dimensional unificado (UDM) que abarca la Adventure Works el almacén de los datos.</Description>
+    </Translation>
+    <Translation dwd:design-time-name="72253f37-94fe-4ad6-871f-f105b2d515da">
+      <Language>1036</Language>
+      <Caption>Adventure Works</Caption>
+      <Description>Un modèle dimensionnel unifié qui contient l'entrepot de données complet de Adventure Works.</Description>
+    </Translation>
+  </Translations>
+  <EstimatedSize>13544151</EstimatedSize>
+  <DataSourceImpersonationInfo>
+    <ImpersonationMode>Default</ImpersonationMode>
+    <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
+  </DataSourceImpersonationInfo>
+  <Accounts>
+    <Account dwd:design-time-name="c744593c-42ff-40ef-9dee-8f06bff2c516">
+      <AccountType>Statistical</AccountType>
+      <AggregationFunction>LastNonEmpty</AggregationFunction>
+      <Aliases>
+        <Alias>Statistical</Alias>
+      </Aliases>
+    </Account>
+    <Account dwd:design-time-name="1c49b5f3-5cd9-4033-bafc-de3988a28a9d">
+      <AccountType>Liability</AccountType>
+      <AggregationFunction>LastNonEmpty</AggregationFunction>
+      <Aliases>
+        <Alias>Liabilities</Alias>
+      </Aliases>
+    </Account>
+    <Account dwd:design-time-name="98b69d55-492b-4a65-a5cf-cdb09c58c478">
+      <AccountType>Asset</AccountType>
+      <AggregationFunction>LastNonEmpty</AggregationFunction>
+      <Aliases>
+        <Alias>Assets</Alias>
+      </Aliases>
+    </Account>
+    <Account dwd:design-time-name="e5efecc6-01c3-4304-b7de-f9253fee7d0c">
+      <AccountType>Balance</AccountType>
+      <AggregationFunction>LastNonEmpty</AggregationFunction>
+      <Aliases>
+        <Alias>Balances</Alias>
+      </Aliases>
+    </Account>
+    <Account dwd:design-time-name="b8333f24-ebca-4e52-90a7-66d4ae98904f">
+      <AccountType>Flow</AccountType>
+      <AggregationFunction>LastNonEmpty</AggregationFunction>
+      <Aliases>
+        <Alias>Flow</Alias>
+      </Aliases>
+    </Account>
+    <Account dwd:design-time-name="05c4a85c-9fe8-414c-a7e5-d30cd414e494">
+      <AccountType>Expense</AccountType>
+      <Aliases>
+        <Alias>Expenditures</Alias>
+      </Aliases>
+    </Account>
+    <Account dwd:design-time-name="07adb166-c87b-46c3-843d-3facd319b64f">
+      <AccountType>Income</AccountType>
+      <Aliases>
+        <Alias>Revenue</Alias>
+      </Aliases>
+    </Account>
+  </Accounts>
+</Database>
